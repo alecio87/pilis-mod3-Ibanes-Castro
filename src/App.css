@@ -4,8 +4,20 @@
   width: 100%;
   height: 100vh;
   text-align: center;
-  background: #EECDA3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #eecda3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ef629f,
+    #eecda3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ef629f,
+    #eecda3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+.btn-container {
+  display: flex;
+  justify-content: space-between;
 }

@@ -37,6 +37,13 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
+  margin: 25px;
   margin-top: 25px;
   border-radius: 5px;
+}
+
+.btn-form:hover {
+  cursor: pointer;
+  background-color: rgb(46, 132, 230);
+  color: #fff;
 }

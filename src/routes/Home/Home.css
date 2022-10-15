@@ -3,8 +3,7 @@ header {
 }
 
 .main-container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
 }
 
 header {

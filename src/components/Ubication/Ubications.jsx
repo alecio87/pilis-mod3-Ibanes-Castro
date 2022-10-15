@@ -1,14 +1,14 @@
 import Ubication from "./Ubication";
-import './Ubications.css'
+import "./Ubications.css";
 
-const Ubications = ({ ubications }) => {// ubicaciones
+const Ubications = ({ ubications }) => {
   return (
-    <div className='grid'>
+    <div className="grid">
       {ubications.map((ubication) => (
-        <Ubication key={ubication.id} ubication={ubication} /> // ubicacion
+        <Ubication key={ubication.id} ubication={ubication} />
       ))}
     </div>
   );
-}
+};
 
-export default Ubications
+export default Ubications;
