@@ -1,7 +1,6 @@
 ## _Trabajo Final Modulo 3_
 
 ### *INFORMACIÓN DEL CLIMA*
-https://media.giphy.com/media/QRhtqYeEywJI4/giphy.gif
 
 ## Caracteristica del Proyecto
 - Use librerias react-router-dom,react-icons,react-hook-form
